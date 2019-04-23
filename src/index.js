@@ -24,4 +24,6 @@ function handleClick(e){
 
 
   addToList(task)
+
+  e.target.reset()
 }
